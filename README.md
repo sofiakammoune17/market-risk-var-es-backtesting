@@ -1,5 +1,7 @@
 # Market Risk: VaR, Expected Shortfall & Backtesting
 
+**Accès rapide pour les recruteurs :** [voir le code Python principal](market_risk_analysis.py) · [voir les tests](tests/test_market_risk.py)
+
 Reproducible Python case study for measuring and monitoring the one-day market risk of a diversified illustrative portfolio.
 
 ## Business objective
@@ -34,6 +36,7 @@ Losses are reported as positive EUR amounts.
 ## Repository structure
 
 ```text
+market_risk_analysis.py          Main Python file visible at repository root
 src/market_risk.py           Risk engine and output generation
 tests/test_market_risk.py    Financial-logic tests
 outputs/                     Generated CSV reports and charts
