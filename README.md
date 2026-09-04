@@ -49,7 +49,7 @@ python -m src.market_risk
 pytest -q
 ```
 
-## Interpretation for interviews
+## Key risk insights
 
 VaR estimates a loss threshold at a chosen confidence level; it does not describe the average severity beyond that threshold. Expected Shortfall complements VaR by averaging tail losses. Backtesting is essential because a model that systematically underestimates risk produces too many exceptions. The three VaR methods differ because they rely on different distributional and sampling assumptions.
 
